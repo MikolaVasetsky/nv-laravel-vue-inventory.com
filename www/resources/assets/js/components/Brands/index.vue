@@ -33,7 +33,7 @@
 		created(){
 			this.fetchbrands();
 		},
-		methonds:{
+		methods:{
 			fetchbrands(){
 				axios.get('api/brands').thren(response => this.brands = response.data.brands)
 			}
